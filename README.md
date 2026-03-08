@@ -117,7 +117,7 @@ python app.py
 
 ## 📖 Document Reffered
 
-data/Cricket.pdf
+Ai-projects/data/Cricket.pdf
 
 The chatbot analyzes the above document and searches the results as per
 the questions asked.
