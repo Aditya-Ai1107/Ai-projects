@@ -19,18 +19,27 @@ The chatbot answers questions based on custom documents by retrieving relevant c
 ## Project Structure
 
 
-RAG-based-chatbot
+RAG-based-chatbot/
 │
 ├── app.py
 ├── create_vectorstore.py
 ├── requirements.txt
+├── README.md
+├── .gitignore
+│
 ├── data/
+│   └── Cricket.pdf
+│
 ├── src/
-│ ├── chatbot.py
-│ ├── retriever.py
-│ └── ingest.py
+│   ├── chatbot.py
+│   ├── retriever.py
+│   ├── ingest.py
+│   └── test.py
+│
 ├── vectorstore/
-
+│
+└── notebooks/
+    └── ingest.ipynb
 
 ---
 
