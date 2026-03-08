@@ -1,107 +1,139 @@
-# RAG-Based Chatbot 🤖
+# 🤖 RAG-Based-Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot built using Python, LangChain, FAISS, and HuggingFace embeddings.
+<p align="center">
+  <img src="demo.png" width="800">
+</p>
 
-The chatbot answers questions based on custom documents by retrieving relevant context from a vector database.
-
----
-
-## Features
-
-- Document based Question Answering
-- FAISS Vector Database
-- HuggingFace Embeddings
-- Retrieval-Augmented Generation (RAG)
-- Streamlit Chat UI
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue">
+  <img src="https://img.shields.io/badge/Framework-LangChain-orange">
+  <img src="https://img.shields.io/badge/VectorDB-FAISS-green">
+  <img src="https://img.shields.io/badge/License-MIT-red">
+</p>
 
 ---
 
-## Project Structure
+## 📌 Overview
 
+This project is an AI-powered application that uses **Retrieval-Augmented Generation (RAG)** to answer questions based on custom documents.
+It combines **LLMs, embeddings, and vector databases** to provide accurate contextual responses.
 
-RAG-based-chatbot/
+---
+
+## 🚀 Features
+
+* 📄 Document ingestion and processing
+* 🔎 Semantic search using vector embeddings
+* 🧠 Context-aware AI responses
+* ⚡ Fast retrieval with FAISS vector database
+* 💬 Simple interactive UI
+
+---
+
+## 🏗️ Project Structure
+
+```
+AI-project
 │
 ├── app.py
 ├── create_vectorstore.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 │
-├── data/
-│   └── Cricket.pdf
-│
-├── src/
+├── src
 │   ├── chatbot.py
-│   ├── retriever.py
-│   ├── ingest.py
-│   └── test.py
+│   └── retriever.py
 │
-├── vectorstore/
-│
-└── notebooks/
-    └── ingest.ipynb
+└── data
+    └── documents
+```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 Clone the repository
 
-
-git clone https://github.com/Aditya-Ai1107/rag-chatbot.git
-
-cd rag-chatbot
-
+```
+git clone https://github.com/Aditya-Ai1107/Ai-projects.git
+cd project-name
+```
 
 Create virtual environment
 
+```
+python -m venv .venv
+```
 
-python -m venv venv
-venv\Scripts\activate
+Activate environment
 
+Windows
+
+```
+.venv\Scripts\activate
+```
 
 Install dependencies
 
-
+```
 pip install -r requirements.txt
-
+```
 
 ---
 
-## Create Vector Database
+## ▶️ Run the Project
 
+Create the vector database
 
+```
 python create_vectorstore.py
+```
 
+Start the application
 
----
-
-## Run Chatbot
-
-
-streamlit run app.py
-
+```
+python app.py
+```
 
 ---
 
-## Tech Stack
+## 🧠 Tech Stack
 
-- Python
-- LangChain
-- FAISS
-- HuggingFace Embeddings
-- Streamlit
+* Python
+* LangChain
+* FAISS
+* HuggingFace Transformers
+* Streamlit / Gradio
+
+---
+
+## 📸 Demo
+
+<p align="center">
+  <img src="demo.png" width="800">
+</p>
 
 ---
 
-## Future Improvements
+## 🎯 Future Improvements
 
-- Multi-document support
-- Chat history memory
-- Deployment (HuggingFace / AWS)
-- Better UI
+* Add support for multiple document formats
+* Deploy using Docker
+* Add memory-based conversation support
+* Improve UI/UX
 
 ---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
 
 ## Author
 
