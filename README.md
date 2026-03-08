@@ -110,7 +110,7 @@ python app.py
 ## 📸 Demo
 
 <p align="center">
-  <img src="demo.png" width="800">
+  <img src="demo.PNG" width="800">
 </p>
 
 ---
