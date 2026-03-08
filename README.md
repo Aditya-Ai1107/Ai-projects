@@ -115,12 +115,13 @@ python app.py
 
 ---
 
-## Document Reffered
+## 📖 Document Reffered
 
 data/Cricket.pdf
 
 The chatbot analyzes the above document and searches the results as per
-the questions asked
+the questions asked.
+
 ---
 
 ## 🎯 Future Improvements
