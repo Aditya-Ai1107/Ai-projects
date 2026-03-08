@@ -117,7 +117,7 @@ python app.py
 
 ## 📖 Document Reffered
 
-Ai-projects/data/Cricket.pdf
+https://github.com/Aditya-Ai1107/Ai-projects/blob/main/data/Cricket.pdf
 
 The chatbot analyzes the above document and searches the results as per
 the questions asked.
