@@ -119,8 +119,7 @@ python app.py
 
 https://github.com/Aditya-Ai1107/Ai-projects/blob/main/data/Cricket.pdf
 
-The chatbot analyzes the above document and searches the results as per
-the questions asked.
+The chatbot first analyzes the uploaded document by reading and processing its content. It converts the information in the document into a format that the system can efficiently search and understand. When a user asks a question, the chatbot searches through the processed document data to find the most relevant information related to the query. It then retrieves the matching content and generates an accurate response based on the document. In this way, the chatbot provides answers that are directly derived from the information present in the document.
 
 ---
 
